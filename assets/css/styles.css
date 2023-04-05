@@ -118,8 +118,6 @@ img {
   z-index: var(--z-fixed);
   background-color: #ffffff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
-
-
 }
 
 /*===== NAV =====*/
@@ -426,6 +424,7 @@ img {
     align-items: center;
     text-align: initial;
   }
+}
 
 @media screen and (min-width: 700px) {
   body {
@@ -470,6 +469,7 @@ img {
   .about__img img {
     width: 300px;
   }
+}
 
 @media screen and (min-width: 1024px) {
   .bd-grid {
