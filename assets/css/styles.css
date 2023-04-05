@@ -173,11 +173,6 @@ img {
   background-color: var(--first-color);
 }
 
-/*=== Show menu ===*/
-.show {
-  right: 0;
-}
-
 /*===== HOME =====*/
 
 .home {
@@ -383,28 +378,6 @@ img {
   background-color: #3703af;
 }
 
-/* ===== CONTACT =====*/
-
-.contact__input {
-  width: 100%;
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-semi);
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
-  outline: none;
-  margin-bottom: var(--mb-4);
-}
-
-.contact__button {
-  display: block;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-  margin-left: auto;
-}
-
 /* ===== FOOTER =====*/
 
 .footer {
@@ -480,9 +453,7 @@ img {
     margin-left: var(--mb-6);
     margin-bottom: 0;
   }
-  .nav__toggle {
-    display: none;
-  }
+  
   .nav__link {
     color: var(--second-color);
   }
